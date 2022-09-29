@@ -32,17 +32,21 @@
         <br>
         </div>
         <div id = "contactme">
-            <form method = "POST">
+            <form method = "POST" netlify name = "Clients" netlify-honeypot="eeee" data-netlify-recaptcha="true">
+                <input name="eeee" style = "display:none;" />
             <h2>CONTACT ME</h2>
             <br>
             <input name = "IP Address" id = "hi" placeholder = "Your name..." required />
             <br>
             <input id = "nname" name = "Name" placeholder = "Your name..." required />
             <br>
-            <textarea placeholder = "Tell me your argument(s)..." required></textarea>
+            <textarea name = "Arguments" placeholder = "Tell me your argument(s)..." required></textarea>
                 <br>
                 <br>
                 <button id = "submit" onclick = "contactlel()">SUBMIT</button>
+                <br>
+                <br>
+                 <div data-netlify-recaptcha="true"></div>
             </form>
             <br>
             <p style = "position:fixed;width:100%;bottom:25px;margin:auto;"><small>Go to the lunch table near the condiments<br>today after submitting so we can discuss in further detail.</small></p>
