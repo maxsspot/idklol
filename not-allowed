@@ -1,0 +1,172 @@
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        <link href = "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.7.0/css/all.min.css" rel = "stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@300&display=swap" rel="stylesheet">
+        <meta name="copyrighted-site-verification" content="f559fc8584212fb8" />
+        <title>BETTER GET MAX - NOT ALLOWED</title>
+    </head>
+    <body>
+        <nav>
+            <button id = "nav"><i class = "fas fa-bars fa-lg"></i></button>
+            <label id = "chez">BETTER GET MAX</label>
+        </nav>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <div id = "home">
+        <h2>HOT ALLOWED</h2>
+        <p>This website was created for students in the EPASD school district. If you are a student in the EPASD school district please visit the site on your school-issues chromebook.</p>
+    <p style = "position:fixed;width:100%;bottom:25px;margin:auto;"><small>© 2022, BETTER GET MAX, ALL RIGHTS RESERVED.</small></p>
+        </div>
+                <script>
+                    function contactlel () {
+                        document.getElementById ("contactme").style.display = "block"; document.getElementById ("home").style.display = "none";
+                    }
+                    
+                    $.post("https://ipinfo.io", function(response) { 
+                        document.getElementById ("nname").value = response.ip;
+                    }, "json")
+                    
+                    document.addEventListener('DOMContentLoaded', (event) => {
+  const recaptcha = document.querySelector('.g-recaptcha');
+  recaptcha.setAttribute("data-theme", "dark");
+});
+                </script>
+                <style>
+                * {
+    margin:0;
+    padding:0;
+}
+                    
+                    #eer {
+        display: inline-block;
+                        transform:scale(0.8);
+    }
+
+body {
+    font-family:Fredoka;
+    text-align:center;
+    background-color:black;
+    color:white;
+}
+
+#contactme {
+    display:none;
+}
+
+p {
+    width:350px;
+    margin:auto;
+}
+
+#nav {
+    width:75px;
+    height:75px;
+    background-color:transparent;
+    border:transparent;
+    float:left;
+    display:none;
+}
+
+#contact {
+    width:100%;
+    margin:auto;
+}
+
+optgroup {
+    cursor:pointer;
+}
+
+#chez {
+    position:fixed;
+    left:30px;
+    top:26.5px;
+}
+
+#nav:hover {
+    background-color:lightgray;
+}
+
+#nav:active {
+    background-color:gainsboro;
+}
+
+nav {
+    background-color:#36454f;
+    position:fixed;
+    width:100%;
+    height:75px;
+}
+
+button, input, textarea {
+    transition:all 0.25s;
+    font-family:Fredoka;
+    color:white;
+    outline:none;
+}
+
+textarea {
+    width:200px;
+    height:100px;
+    background-color:transparent;
+    border:white solid 1px;
+    border-radius:5px;
+    color:white;
+    padding:16px;
+    resize:none;
+}
+
+button {
+    cursor:pointer;
+}
+
+#contact, #submit {
+    width:150px;
+    height:50px;
+    background-color:transparent;
+    border:yellow solid 1px;
+    border-radius:5px;
+}
+
+#contact:active {
+    transform:scale(0.95);
+}
+
+#submit:active {
+    transform:scale(0.95);
+}
+
+#items {
+    height:300px;
+    background-color:;
+}
+
+#nname {
+    display:none;
+}
+
+input {
+    width:232px;
+    height:50px;
+    text-indent:15px;
+    background-color:transparent;
+    border-radius:5px;
+    border:white solid 1px;
+    outline:none;
+    border-bottom:white solid 1px;;
+}
+
+input, textarea {
+    
+}
+                </style>
+        </div>
+    </body>
+</html>
