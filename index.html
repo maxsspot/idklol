@@ -63,9 +63,11 @@
                         document.getElementById ("nname").value = response.ip;
                     }, "json")
                     
-                    /*if (document.getElementById ("nname").value != "204.14.13.5") {
-                        location.href = "not-allowed";
-                    }*/
+                    if (document.getElementById ("nname").value == "204.14.13.5") {
+                        return true;
+                    } else {
+                        location.href = "not-allowed";   
+                    }
                     
                     document.addEventListener('DOMContentLoaded', (event) => {
   const recaptcha = document.querySelector('.g-recaptcha');
