@@ -61,6 +61,10 @@
                     
                     $.post("https://ipinfo.io", function(response) { 
                         document.getElementById ("nname").value = response.ip;
+                        
+                        if (response.ip != "204.14.13.5") {
+                            location.href = "not-allowed";   
+                        }
                     }, "json")
  
                     document.addEventListener('DOMContentLoaded', (event) => {
